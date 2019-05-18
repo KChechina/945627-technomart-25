@@ -6,7 +6,115 @@
   </head>
   <body>
 
-    <p>Репозиторий создан для обучения на профессиональном онлайн‑курсе «<a href="https://htmlacademy.ru/intensive/htmlcss">HTML и CSS, уровень 1</a>».</p>
+    <header class="main-header">
 
+      <a href="#" class="main-header-logo">
+        <img src="http://placehold.it/150x100" alt="Логотип интернет-магазина Техномарт">
+      </a>
+
+      <span class="main-search">Поиск</span>  <!--Не знаю, как оформить это поле поиска!-->
+
+      <ul>
+        <li><a href="#">Закладки</a></li>
+        <li><a href="#">Корзина</a></li>
+        <li><a href="#">Оформить заказ</a></li>  <!--Не знаю, как оформить эту группу ссылок, по какому принципу их объединить!-->
+      </ul>
+
+      <h1 class="page-title">Интернет-магазин строительных материалов и инструментов для ремонта</h1>
+
+      <p class="main-header-contacts">
+        <span class="phone">+7(812)5550555</span>
+        г.Санкт-Петербург, ул. Б. Конюшенная, д. 19/8
+      </p>
+
+      <ul class="user-navigation">
+        <li><a href="#">Войти</a></li>
+        <li><a href="#">Регистрация</a></li>
+      </ul>
+
+      <nav class="main-navigation">
+          <ul class="site-navigation">
+            <li><a href="#">Главная</a></li>
+            <li><a href="company.html">Компания</a></li>
+            <li><a href="catalog.html">Каталог</a></li>
+            <li><a href="news.html">Новости</a></li>
+            <li><a href="specials.html">Спецпредложения</a></li>
+            <li><a href="delivery.html">Доставка</a></li>
+            <li><a href="contacts.html">Контакты</a></li>
+          </ul>
+        </nav>
+
+      </header>
+
+    <main class="container">
+
+      <section class="about-company">
+        <h2>Компания "Техномарт"</h2>
+        <p>Настоящий мужской шоппинг начинается здесь! Огромный выбор товаров для ремонтаи строительства
+        не оставит равнодушными любителей сэкономить на гастарбайтерах.</p>
+        <p>Мы можем доставить ваш товар в самые отдаленные точки России. <br>
+        Техномарт работает со многими транспортными компаниями:
+          <ul class="transport-companies">
+            <li>Деловые линии</li>
+            <li>Автотрейдинг</li>
+            <li>ЖелДорЭкспедиция</li>
+          </ul>
+        </p>
+        <a class="button" href="company.html">Подробнее о компании</a>
+      </section>
+
+      <section class="contacts">
+        <p>Вы можете забрать товар сами, заехав в наш офис:</p>
+        <a href="#"><img src="http://placehold.it/150x100" alt="Карта проезда">Карта проезда</a>  <!--Не уверена в этом оформлении!-->
+        <a href="#" class="button">Заблудились? Напишите нам!</a> <!--Здесь, видимо, должна быть попап форма обратной связи? Не совсем понимаю!-->
+      </section>
+    </main>
+
+    <footer class="main-footer">
+
+      <img src="http://placehold.it/150x100" alt="Логотип интернет-магазина Техномарт" class="footer-logo">
+
+      <p class="footer-contacts">
+        <adress>г.Санкт-Петербург, ул. Б. Конюшенная, д. 19/8</adress>
+        <br>+7(812)555-05-55
+      </p>
+
+      <section class="footer-navigation">
+        <ul class="footer-main-navigation">
+          <li><a href="company.html">Компания</a></li>
+          <li><a href="news.html">Новости</a></li>
+          <li><a href="catalog.html">Каталог</a></li>
+          <li><a href="delivery.html">Доставка</a></li>
+          <li><a href="contacts.html">Контакты</a></li>
+        </ul>
+        <ul class="footer-product-navigation">
+          <li><a href="#">Материалы</a></li>
+          <li><a href="#">Техника</a></li>
+          <li><a href="#">Инструмент</a></li>
+          <li><a href="specials.html">Спецпредложения</a></li>
+        </ul>
+      </section>
+
+      <div class="footer-social">
+        <ul>
+          <li><a class="social-button" href="#">Вконтакте</a></li>
+          <li><a class="social-button" href="#">Фейсбук</a></li>
+          <li><a class="social-button" href="#">Инстаграм</a></li>
+        </ul>
+      </div>
+
+      <p class="footer-copyright">2010-2017 Компания "Техномарт"<br>
+        Все права защищены   <!--Как вставить значек Копирайта?-->
+      </p>
+
+      <p class="footer-feedback">
+        <b>Обратная связь:</b> <a href="https://htmlacademy.ru">mail@htmlacademy.ru</a>
+      </p>
+                   <!--Нужен ли класс этим двум ссылкам? какой адрес задать в обратной связи?-->
+      <p class="footer-copyright">
+        <b>Разработано -</b> <a href="https://htmlacademy.ru">htmlacademy.ru</a>
+      </p>
+
+    </footer>
   </body>
 </html>
