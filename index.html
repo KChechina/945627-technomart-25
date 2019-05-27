@@ -121,12 +121,43 @@
     <h2 class="visuallу-hidden">Как до нас добраться</h2>
     <p>
       <img src="img/map.png" alt="Офис компании по адресу Большая Конюшенная 19, Санкт-Петербург" width="940px"
-            height`="446.2px">
+            height="446.2px">
     </p>
     <button class="modal-close">
-      <img src="img/svg-technomart/map-close.svg" <!--Можно ли этот символ вложить в кнопку, чтобы он работал как кнопка закрытия попапа?-->
+      <img src="img/svg-technomart/map-close.svg" alt="Закрыть окно"/> <!--Можно ли этот символ вложить в кнопку, чтобы он работал как кнопка закрытия попапа?-->
            class="map-close">
     </button>
+  </section>
+
+  <section class="modal modal-feedback">
+    <h2 class="visually-hidden">
+      Напишите нам!
+    </h2>
+    <form action="https://echo.htmlacademy.ru" method="post" class="feedback">
+      <p>
+        <label>
+          <input type="text" class="user-name" placeholder="Имя Фамилия">
+          Ваше имя:
+        </label>
+      </p>
+      <p>
+        <label>
+          <input type="email" class="user-email" placeholder="email@example.com">
+          Ваш e-mail:
+        </label>
+      </p>
+      <p>
+        <label>
+          <input type="text" class="user-message" placeholder="В свободной форме">
+          Текст письма:
+        </label>
+      </p>
+      <button type="submit">Отправить</button>
+      <button class="modal-close">
+        <img src="img/svg-technomart/map-close.svg" alt="Закрыть окно"/> <!--Можно ли этот символ вложить в кнопку, чтобы он работал как кнопка закрытия попапа?-->
+        class="map-close">
+      </button>
+    </form>
   </section>
   </body>
 </html>
