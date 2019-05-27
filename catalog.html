@@ -63,6 +63,59 @@
   <h2>Перфораторы</h2>
 
   <section class="filters">
+
+    <form class="filter" method="get"
+          action="https://echo.htmlacademy.ru">
+      <fieldset>
+        <legend>ПРОИЗВОДИТЕЛИ:</legend>
+        <ul>
+          <li>
+            <label>
+              <input type="checkbox" name="bosch" checked>
+              BOSCH
+            </label>
+          </li>
+          <li>
+            <label>
+              <input type="checkbox" name="interskol" >
+              ИНТЕРСКОЛ
+            </label>
+          </li>
+          <li>
+            <label>
+              <input type="checkbox" name="MAKITA" checked>
+              MAKITA
+            </label>
+            <label>
+              <input type="checkbox" name="DEWALT" >
+              DEWALT
+            </label>
+            <label>
+              <input type="checkbox" name="HITACHI" >
+              HITACHI
+            </label>
+          </li>
+        </ul>
+      </fieldset>
+      <fieldset>
+        <legend>ПИТАНИЕ:</legend>
+        <ul>
+          <li>
+            <label>
+              <input type="radio" name="product-group" value="accumulator">
+              АККУМУЛЯТОРНЫЕ
+            </label>
+          </li>
+          <li>
+            <label>
+              <input type="radio" name="product-group" value="network">
+              СЕТЕВЫЕ
+            </label>
+          </li>
+        </ul>
+      </fieldset>
+      <button type="submit">Показать</button>
+    </form>
     <!--Здесь будут когда-нибудь фильтры-->
   </section>
 
