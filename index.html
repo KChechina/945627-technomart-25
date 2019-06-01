@@ -3,11 +3,15 @@
   <head>
     <meta charset="utf-8">
     <title>HTML Academy: Техномарт</title>
+    <link href="https://fonts.googleapis.com/css?family=Cuprum:400,400i,700|PT+Sans:400,700&display=swap&subset=cyrillic" rel="stylesheet">
+    <link href="css/normalize.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
   </head>
   <body>
 
     <header class="main-header">
 
+      <div class="header-top">
       <a href="#" class="main-header-logo">
         <img src="img/svg-technomart/logo-technomart.svg" style="background-color: #ee3643" alt="Логотип интернет-магазина Техномарт">
       </a>
@@ -17,11 +21,12 @@
         <input type="search" class="main-search" placeholder="Поиск:" id="main-search-form">
       </form>
 
-      <ul>
+      <ul class="button-header">
         <li><a class="button-header button-bookmark " href="#">Закладки</a></li>
         <li><a class="button-header button-cart" href="#">Корзина</a></li>
         <li><a class="button-header button-order" href="#">Оформить заказ</a></li>  <!--Не знаю, как оформить эту группу ссылок, по какому принципу их объединить!-->
       </ul>
+      </div>
 
       <h1 class="page-title">Интернет-магазин строительных материалов и инструментов для ремонта</h1>
 
@@ -67,9 +72,10 @@
       </section>
 
       <section class="contacts">
+        <h2>Контакты</h2>
         <p>Вы можете забрать товар сами, заехав в наш офис:</p>
         <a href="#"><img src="img/map.png" alt="Офис компании по адресу Большая Конюшенная 19, Санкт-Петербург"></a>  <!--Не уверена в этом оформлении!-->
-        <a href="#" class="button">Заблудились? Напишите нам!</a> <!--Здесь, видимо, должна быть попап форма обратной связи? Не совсем понимаю!-->
+        <a class="button" href="#" >Заблудились? Напишите нам!</a> <!--Здесь, видимо, должна быть попап форма обратной связи? Не совсем понимаю!-->
       </section>
     </main>
 
@@ -99,8 +105,9 @@
         </ul>
       </section>
 
+      <div class="footer-bottom">
       <div class="footer-social">
-        <ul>
+        <ul class="footer-social">
           <li><a class="social-button" href="#">Вконтакте</a></li>
           <li><a class="social-button" href="#">Фейсбук</a></li>
           <li><a class="social-button" href="#">Инстаграм</a></li>
@@ -118,6 +125,7 @@
       <p class="footer-copyright">
         <b>Разработано -</b> <a href="https://htmlacademy.ru">htmlacademy.ru</a>
       </p>
+      </div>
     </footer>
 
   <section class="modal modal-map">

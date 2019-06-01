@@ -3,13 +3,19 @@
 <head>
     <meta charset="UTF-8">
     <title>Внутренняя страница</title>
+  <link href="https://fonts.googleapis.com/css?family=Cuprum:400,400i,700|PT+Sans:400,700&display=swap&subset=cyrillic" rel="stylesheet">
+  <link href="css/normalize.css" rel="stylesheet">
+  <link href="css/style.css" rel="stylesheet">
+
 </head>
 <body>
 <header class="main-header">
 
+  <div class="header-top">
   <a href="index.html" class="main-header-logo">
     <img src="img/svg-technomart/logo-technomart.svg" style="background-color: #ee3643" alt="Логотип интернет-магазина Техномарт">
   </a>
+
 
   <form action="get">
     <label for="main-search-form" class="main-search visually-hidden">Поиск</label>
@@ -17,11 +23,12 @@
   </form>
 
 
-  <ul>
+  <ul class="button-header">
     <li><a class="button-header button-bookmark " href="#">Закладки</a></li>
     <li><a class="button-header button-cart" href="#">Корзина</a></li>
     <li><a class="button-header button-order" href="#">Оформить заказ</a></li>  <!--Не знаю, как оформить эту группу ссылок, по какому принципу их объединить!-->
   </ul>
+  </div>
 
   <h1 class="page-title">Интернет-магазин строительных материалов и инструментов для ремонта</h1>
 
@@ -34,7 +41,7 @@
 
   <section class="user-navigation">
     <ul class="user-info">
-      <li><a class="user-name" href="#">Равшан Джамшутович</a></li>                <!--Не знаю, как сделать меню пользователя для авторизированного клиента-->
+      <li><a class="user-name" href="#">Равшан Джамшутович</a></li>
       <li><a class="user-logout" href="#">Выход</a></li>
     </ul>
     <ul class="user-activity">
@@ -42,12 +49,7 @@
       <li><a class="user-profile" href="#">Личный кабинет</a></li>
     </ul>
   </section>
-  <!-- Примерная разметка этого блока
-  <p class="user-navigation">
-    <span>иконка пользователя</span> плюс както надо добавит две ссылки из иконок: на дичный кабинет и на страницу деавторизации
-    <a href="#">Мои заказы</a>
-    <a href="#">Личный кабинет</a>
-  </p> -->
+
 
   <nav class="main-navigation">
     <ul class="site-navigation">
@@ -71,7 +73,7 @@
     <li class="breadcrumbs-current"><a>Перфораторы</a></li>
   </ul>
 
-  <h2>Перфораторы</h2>
+  <h2 class="product-group">Перфораторы</h2>
 
   <section class="filters">
 
@@ -136,60 +138,60 @@
         <img src="img/item.jpg" alt="Перфоратор Bosch BFG 3000">
         <p class="product-item-price">
           <del>22500</del>
-          <ins>15500 <span>Р.</span></ins>
+          <ins>15500 Р.</ins>
       </li>                                         <!--Как сделать значок NEW?-->
       <li class="product-item">
         <h3>Перфоратор Bosch BFG 6000</h3>
         <img src="img/item2.jpg" alt="Перфоратор Bosch BFG 6000">
         <p class="product-item-price">
           <del>30500</del>
-          <ins>25500 <span>Р.</span></ins>
+          <ins>25500 Р.</ins>
       </li>
       <li class="product-item">
         <h3>Перфоратор Bosch BFG 2000</h3>
         <img src="img/item3.jpg" alt="Перфоратор Bosch BFG 3000">
         <p class="product-item-price">
-          <ins>12500 <span>Р.</span></ins>
+          <ins>12500 Р.</ins>
       </li>
       <li class="product-item">
         <h3>Перфоратор Bosch BFG 3000</h3>
         <img src="img/item.jpg" alt="Перфоратор Bosch BFG 3000">
         <p class="product-item-price">
           <del>22500</del>
-          <ins>15500 <span>Р.</span></ins>
+          <ins>15500 Р.</ins>
       </li>
       <li class="product-item">
         <h3>Перфоратор Bosch BFG 6000</h3>
         <img src="img/item2.jpg" alt="Перфоратор Bosch BFG 6000">
         <p class="product-item-price">
           <del>30500</del>
-          <ins>25500 <span>Р.</span></ins>
+          <ins>25500 Р.</ins>
       </li>
       <li class="product-item">
         <h3>Перфоратор Bosch BFG 2000</h3>
         <img src="img/item3.jpg" alt="Перфоратор Bosch BFG 3000">
         <p class="product-item-price">
-          <ins>12500 <span>Р.</span></ins>
+          <ins>12500 Р.</ins>
       </li>
       <li class="product-item">
         <h3>Перфоратор Bosch BFG 3000</h3>
         <img src="img/item.jpg" alt="Перфоратор Bosch BFG 3000">
         <p class="product-item-price">
           <del>22500</del>
-          <ins>15500 <span>Р.</span></ins>
+          <ins>15500 Р.</ins>
       </li>
       <li class="product-item">
         <h3>Перфоратор Bosch BFG 6000</h3>
         <img src="img/item2.jpg" alt="Перфоратор Bosch BFG 6000">
         <p class="product-item-price">
           <del>30500</del>
-          <ins>25500 <span>Р.</span></ins>
+          <ins>25500 Р.</ins>
       </li>
       <li class="product-item">
         <h3>Перфоратор Bosch BFG 2000</h3>
         <img src="img/item3.jpg" alt="Перфоратор Bosch BFG 3000">
         <p class="product-item-price">
-          <ins>12500 <span>Р.</span></ins>
+          <ins>12500 Р.</ins>
       </li>
     </ul>
 
@@ -238,8 +240,9 @@
       </ul>
     </section>
 
+    <div class="footer-bottom">
     <div class="footer-social">
-      <ul>
+      <ul class="footer-social">
         <li><a class="social-button" href="#">Вконтакте</a></li>
         <li><a class="social-button" href="#">Фейсбук</a></li>
         <li><a class="social-button" href="#">Инстаграм</a></li>
@@ -257,6 +260,7 @@
     <p class="footer-copyright">
       <b>Разработано -</b> <a href="https://htmlacademy.ru">htmlacademy.ru</a>
     </p>
+    </div>
   </footer>
 
 
